@@ -60,7 +60,7 @@ jobs:
           ls -l _build/html
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: documentation/_build/html
 
